@@ -83,6 +83,8 @@
         <!-- /.container -->
     </section>
 
+
+
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
@@ -102,7 +104,6 @@
                                     <strong>Delicious</strong>
                                 </h4>
                                 <p>Stoked Bees harvest primarily from Fireweed creating a unique and flavorful honey.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -115,7 +116,6 @@
                                     <strong>Local</strong>
                                 </h4>
                                 <p>Local honey made by locals in Homer, Alaska.  </p><br \>
-                                <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -128,7 +128,6 @@
                                     <strong>All Natural</strong>
                                 </h4>
                                 <p>No chemicals or preservatives added. It's the real deal.</p><br \>
-                                <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -141,7 +140,6 @@
                                     <strong>Bee Care</strong>
                                 </h4>
                                 <p>We care about our bees so we winterize them to keep the same bees season to season.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -166,36 +164,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <h2>Learn About Our Work</h2>
                     <hr class="small">
                     <div class="row">
+
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/fireweed.jpg">
-                                </a>
-                            </div>
+                          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                              <img src="img/fireweed.jpg" class="img-responsive img-portfolio" alt="Fireweed">
+                          </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/clearAlaskanHoney.jpg">
-                                </a>
-                            </div>
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                              <img src="img/clearAlaskanHoney.jpg" class="img-responsive img-portfolio" alt="clearHoney">
+                          </a>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-top:40px;">
+                        <div class="col-md-6">
+                          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                              <img src="img/homerFamily.jpg" class="img-responsive img-portfolio" alt="grownInHomer">
+                          </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/homerFamily.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/closeUpBees.jpg">
-                                </a>
-                            </div>
+                          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                              <img src="img/closeUpBees.jpg" class="img-responsive img-portfolio" alt="Fireweed">
+                          </a>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
@@ -245,24 +239,109 @@
                         </li>
                     </ul>
                     <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
                     <hr class="small">
-                    <!-- <p class="text-muted">Copyright &copy; Your Website 2014</p> /* -->
+                    <p class="text-muted">Copyright &copy; Stoked Honey Beekeeping Co. 2014</p>
                 </div>
             </div>
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
+
+    <!-- Portfolio Modals -->
+
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Fireweed Honey</h2>
+                            <hr class="star-primary">
+                            <img src="img/fireweed.jpg" class="img-responsive img-centered" alt="">
+                            <p>My best seller is my Fireweed Honey. When the fireweed is blooming, I relocate my hives so that the bees harvest solely from the Fireweed. This gives them a unique and pure flavor. Ask me for a sample in you're in Homer!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Unique Honey</h2>
+                            <hr class="star-primary">
+                            <img src="img/clearAlaskanHoney.jpg" class="img-responsive img-centered" alt="">
+                            <p>My raw alaskan honey comes out a unique clear color with a punch of flavor. My fireweed is catching like wildfire in Homer. I don't even carry an inventory because I sell out too fast! If you would like to have some please contact me in the early summer!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Homer Family</h2>
+                            <hr class="star-primary">
+                            <img src="img/homerFamily.jpg" class="img-responsive img-centered" alt="">
+                            <p>I grew up in Homer with my family of 8. A true local resident of Homer with an honest local honey business that is catching like wildfire amongst local.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bees, Up Close and Personal</h2>
+                            <hr class="star-primary">
+                            <img src="img/closeUpBees.jpg" class="img-responsive img-centered" alt="">
+                            <p>If you would like a tour of my hives or want to get involved with Stoked Honey Beekeeping, please contact me!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
